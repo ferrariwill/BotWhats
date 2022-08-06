@@ -1,0 +1,25 @@
+{
+  "name": "ecommerce_bot",
+  "version": "1.0.0",
+  "description": "Hello there,<br/><br/> This folder/repository contains the code to a tutorial I am working on relating to Whatsapp & Ecommerce.<br/> The link to the tutorial will added here as soon as the article is published. <br/><br/> Thanks, <br/> Daggie.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "devstart": "nodemon app.js",
+    "prettier": "prettier --ignore-path .prettierignore --config prettier.config.js --write .",
+    "quickpush": "cls && git status && git add * && git commit * -m \"Updated Code\" && git push"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "pdfkit": "^0.13.0",
+    "request": "^2.88.2",
+    "whatsappcloudapi_wrapper": "^1.0.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
